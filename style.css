@@ -1,0 +1,57 @@
+
+body{
+    font-family: Ubuntu;
+    background: url("img/background.jpg")no-repeat;
+    background-size: cover;
+}
+table{
+    margin: 0 auto;
+    color: blue;
+    border: 5px double black;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+td{
+    width:40px;
+    height: 40px;
+
+}
+button {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+
+}
+#solutions{
+    margin-left:285px;
+    display:none;
+}
+#time{
+    margin-left:605px;
+    font-size: 25px;
+    display: none;
+    line-height: 50px;
+}
+#tbl{
+    display: none;
+}
+
+#btn{
+    margin-left:580px;
+
+}
+.sel{
+    color: darkgrey!important;
+    font-weight: bold!important;
+}
+.done{
+    color: #21da25!important;
+    font-weight: bold!important;
+}
+.solutionDone{
+    color: blue;
+    text-decoration: line-through
+}
